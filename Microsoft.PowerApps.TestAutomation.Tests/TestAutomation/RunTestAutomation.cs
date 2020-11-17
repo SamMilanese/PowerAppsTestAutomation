@@ -96,7 +96,8 @@ Debug.WriteLine(_password);
                                     // CloudIdentity uses standard Office 365 sign-in service
                                     if (_loginMethod == "CloudIdentity")
                                     {
-                                        appBrowser.OnlineLogin.Login(_xrmUri, _username.ToSecureString(), _password.ToSecureString());
+                                        //appBrowser.OnlineLogin.Login(_xrmUri, _username.ToSecureString(), _password.ToSecureString());
+appBrowser.OnlineLogin.Login("https://apps.powerapps.com/play/f79eef18-3590-4431-a260-1708b5c75838?tenantId=229365ac-76e3-4cbb-b87e-729538eb5fb4&__PATestCaseId=fa332aba-526d-43c6-872e-fb1245087efd", "powerappssm@azure.lloydsbank.com", "Halifax17");
                                         break;
                                     }
                                     // FederatedIdentity uses AD FS 2.0 or other Security Token Services
@@ -115,7 +116,8 @@ Debug.WriteLine(_password);
                                     // Fallback to CloudIdentity experience if _loginMethod is not provided
                                     else
                                     {
-                                        appBrowser.OnlineLogin.Login(_xrmUri, _username.ToSecureString(), _password.ToSecureString());
+                                        //appBrowser.OnlineLogin.Login(_xrmUri, _username.ToSecureString(), _password.ToSecureString());
+appBrowser.OnlineLogin.Login("https://apps.powerapps.com/play/f79eef18-3590-4431-a260-1708b5c75838?tenantId=229365ac-76e3-4cbb-b87e-729538eb5fb4&__PATestCaseId=fa332aba-526d-43c6-872e-fb1245087efd", "powerappssm@azure.lloydsbank.com", "Halifax17")
                                         break;
                                     }
 
