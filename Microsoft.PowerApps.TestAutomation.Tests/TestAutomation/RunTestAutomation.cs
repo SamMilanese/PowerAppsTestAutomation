@@ -97,7 +97,7 @@ Debug.WriteLine(_password);
                                     if (_loginMethod == "CloudIdentity")
                                     {
                                         //appBrowser.OnlineLogin.Login(_xrmUri, _username.ToSecureString(), _password.ToSecureString());
-appBrowser.OnlineLogin.Login(@"https://make.powerapps.com", "powerappssm@azure.lloydsbank.com", "Halifax17");
+appBrowser.OnlineLogin.Login(@"https://make.powerapps.com", "", "");
                                         break;
                                     }
                                     // FederatedIdentity uses AD FS 2.0 or other Security Token Services
@@ -117,7 +117,7 @@ appBrowser.OnlineLogin.Login(@"https://make.powerapps.com", "powerappssm@azure.l
                                     else
                                     {
                                         //appBrowser.OnlineLogin.Login(_xrmUri, _username.ToSecureString(), _password.ToSecureString());
-appBrowser.OnlineLogin.Login(@"https://make.powerapps.com", "powerappssm@azure.lloydsbank.com", "Halifax17");
+appBrowser.OnlineLogin.Login(@"https://make.powerapps.com", "", "");
                                         break;
                                     }
 
