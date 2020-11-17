@@ -96,8 +96,8 @@ Debug.WriteLine(_password);
                                     // CloudIdentity uses standard Office 365 sign-in service
                                     if (_loginMethod == "CloudIdentity")
                                     {
-                                        //appBrowser.OnlineLogin.Login(_xrmUri, _username.ToSecureString(), _password.ToSecureString());
-appBrowser.OnlineLogin.Login(@"https://make.powerapps.com", "", "");
+                                        appBrowser.OnlineLogin.Login(_xrmUri, _username.ToSecureString(), _password.ToSecureString());
+
                                         break;
                                     }
                                     // FederatedIdentity uses AD FS 2.0 or other Security Token Services
@@ -116,8 +116,7 @@ appBrowser.OnlineLogin.Login(@"https://make.powerapps.com", "", "");
                                     // Fallback to CloudIdentity experience if _loginMethod is not provided
                                     else
                                     {
-                                        //appBrowser.OnlineLogin.Login(_xrmUri, _username.ToSecureString(), _password.ToSecureString());
-appBrowser.OnlineLogin.Login(@"https://make.powerapps.com", "", "");
+                                        appBrowser.OnlineLogin.Login(_xrmUri, _username.ToSecureString(), _password.ToSecureString());
                                         break;
                                     }
 
