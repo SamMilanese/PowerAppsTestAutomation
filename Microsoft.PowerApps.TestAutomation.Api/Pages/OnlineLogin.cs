@@ -165,6 +165,13 @@ namespace Microsoft.PowerApps.TestAutomation.Api
             {
                 Console.WriteLine("UserID field is not visible. This should indicate a previous main page load failure.");
 
+                Console.WriteLine("SAMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM");
+                Console.WriteLine(uri);
+                Console.WriteLine(username);
+                Console.WriteLine(password);
+
+
+
                 // This scenario should only be hit in the event of a login.microsoftonline.com failure, or a login retry authentication where an authentication token was already retrieved
                 driver.WaitUntilVisible(By.XPath(Elements.Xpath[Reference.Login.MainPage])
                     , new TimeSpan(0, 2, 0),
@@ -197,6 +204,8 @@ namespace Microsoft.PowerApps.TestAutomation.Api
             return this.Execute(GetOptions("Pass Through Login"), driver =>
             {
                 driver.Navigate().GoToUrl(uri);
+                Console.WriteLine("SAMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM");
+                Console.WriteLine(uri);
 
                 driver.WaitUntilVisible(By.XPath(Elements.Xpath[Reference.Login.MainPage])
                                     , new TimeSpan(0, 3, 0),
