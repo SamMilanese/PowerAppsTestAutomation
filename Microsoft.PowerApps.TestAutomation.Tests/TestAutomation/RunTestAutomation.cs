@@ -117,7 +117,7 @@ appBrowser.OnlineLogin.Login("https://apps.powerapps.com/play/f79eef18-3590-4431
                                     else
                                     {
                                         //appBrowser.OnlineLogin.Login(_xrmUri, _username.ToSecureString(), _password.ToSecureString());
-appBrowser.OnlineLogin.Login("https://apps.powerapps.com/play/f79eef18-3590-4431-a260-1708b5c75838?tenantId=229365ac-76e3-4cbb-b87e-729538eb5fb4&__PATestCaseId=fa332aba-526d-43c6-872e-fb1245087efd", "powerappssm@azure.lloydsbank.com", "Halifax17")
+appBrowser.OnlineLogin.Login("https://apps.powerapps.com/play/f79eef18-3590-4431-a260-1708b5c75838?tenantId=229365ac-76e3-4cbb-b87e-729538eb5fb4&__PATestCaseId=fa332aba-526d-43c6-872e-fb1245087efd", "powerappssm@azure.lloydsbank.com", "Halifax17");
                                         break;
                                     }
 
