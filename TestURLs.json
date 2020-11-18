@@ -1,6 +1,1 @@
-{
-  "TestURLs": 
-  [
-    "https://apps.powerapps.com/play/f79eef18-3590-4431-a260-1708b5c75838?tenantId=229365ac-76e3-4cbb-b87e-729538eb5fb4&__PATestSuiteId=b1fd3e62-c419-4a44-b815-930e61379b31&source=testStudioLink"
-  ]
-}
+{ "TestURLs":  [ "https://apps.powerapps.com/play/f79eef18-3590-4431-a260-1708b5c75838?tenantId=229365ac-76e3-4cbb-b87e-729538eb5fb4&__PATestSuiteId=b1fd3e62-c419-4a44-b815-930e61379b31&source=testStudioLink " ] }
